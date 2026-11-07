@@ -1,0 +1,9 @@
+package com.siddharth.currency_converter.dto;
+
+import java.util.Map;
+
+public record ExchangeRateResponse(
+        String result,
+        String base_code,
+        Map<String, Double> rates
+) {}
